@@ -17,4 +17,4 @@
 | bottomLeftRadius | 左下角圆角             |
 | bottomRightRadius| 右下角圆角             |
 ### java调用
->`setDefaultColor此方法只能动态设置strokeColor、defaultColor`
+`>setDefaultColor此方法只能动态设置strokeColor、defaultColor`
