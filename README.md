@@ -1,7 +1,7 @@
 # ButtonBgUi
 
 ##XML属性说明
-| Tables        |               | Cool  |
+| Tables        |   ---         | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
