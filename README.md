@@ -17,4 +17,5 @@
 | bottomLeftRadius | 左下角圆角             |
 | bottomRightRadius| 右下角圆角             |
 ### java调用
-#### `setDefaultColor需填入两个颜色id,如背景色与边框色相同，都填入一种颜色即可。setDefaultColor此方法只能动态设置strokeColor、defaultColor，如果在Java中调用则在XML文件不要填入“strokeColor”、“defaultColor”，否则会颜色冲突。`
+```java
+setDefaultColor需填入两个颜色id,如背景色与边框色相同，都填入一种颜色即可。setDefaultColor此方法只能动态设置strokeColor、defaultColor，如果在Java中调用则在XML文件不要填入“strokeColor”、“defaultColor”，否则会颜色冲突。
