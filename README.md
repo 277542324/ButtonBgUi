@@ -1,4 +1,4 @@
-# ButtonBgUi
+# ButtonBgUi用法以及说明
 
 ### XML属性说明
 
