@@ -31,7 +31,7 @@ public class ButtonBgUi extends AppCompatTextView {
     private int strokeColor;
     private int selectStrokeColor;
     private float raoundRadius;
-    public int defaultColor;
+    private int defaultColor;
     private int pressedColor;
     private boolean isRipple;
     private float parameter;
@@ -76,9 +76,26 @@ public class ButtonBgUi extends AppCompatTextView {
         typedArray.recycle();
     }
 
+    public void setDefaultColor(int color) {
+        defaultColor = color;
+        Drawable colorDrawable = getColorDrawable();
+        if(colorDrawable!=null){
+            this.setBackgroundDrawable(colorDrawable);
+        }
+    }
+
     public void setDefaultColor(int color,int color2) {
         defaultColor = color;
         strokeColor = color2;
+        Drawable colorDrawable = getColorDrawable();
+        if(colorDrawable!=null){
+            this.setBackgroundDrawable(colorDrawable);
+        }
+    }
+    public void setDefaultColor(int color,int color2,int radius) {
+        defaultColor = color;
+        strokeColor = color2;
+        raoundRadius = radius;
         Drawable colorDrawable = getColorDrawable();
         if(colorDrawable!=null){
             this.setBackgroundDrawable(colorDrawable);
